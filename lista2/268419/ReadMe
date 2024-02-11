@@ -1,0 +1,24 @@
+Paweł Leśniak 268419
+21.05.2023
+
+Pliki:
+
+game.h // funkcje i struktury dotyczące planszy
+funs.h // kod pomocniczy wykorzystywany w algorytmie minimax
+bot.c // kod źródłowy bota do gry w kółko i krzyżyk
+
+kompilator:
+
+gcc (GCC) 12.2.1 20230201
+
+sugerowana kompilacja:
+
+gcc -O2 -o bot bot.c
+
+wywołanie bota:
+
+./bot <numer_ip> <numer_portu> <gracz> <głębokość_przeszukiwania>
+
+gracz: 1 dla X lub 2 dla O
+
+biblioteki i narzędzia użyte: standardowa biblioteka C + <arpa/inet.h>
